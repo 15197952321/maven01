@@ -18,7 +18,7 @@ public class UsersAction {
     @RequestMapping("/findall")
     @ResponseBody
     public List<Users> findAll(){
-    	System.out.println("findall");
+    	System.out.println("½øÈëfindall");
         UsersService us = new UsersServiceImpl();
         return us.findAll();
     }
